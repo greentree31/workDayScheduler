@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid  #a1a1a1;
+    padding: 5px;
+  }
+  
+  .desc {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    border-radius: 25px;
+  }
+  
+  .row {
+    border-top: 5px solid white;
+    border-left: 2px solid  #a1a1a1;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px solid #a1a1a1;
+    border-bottom: 1px solid  #a1a1a1;
+  }
+  
+  .past {
+    background-color: #979797;
+    color: white;
+  }
+  
+  .present {
+    background-color: #9fff9f;
+    color: white;
+  }
+  
+  .future {
+    background-color: #288cff;
+    color: white;
+  }
+  
+  .btn {
+    border-left: 1px solid  #a1a1a1;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #bdbdbd;
+    color: rgb(0, 119, 255);
+  }
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #bdbdbd;
+    color: rgb(0, 119, 255);
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .notification {
+    padding: 10px;
+    color: darkslategray;
+    display: none;
+  }
+  
+  .view {
+    display: block;
+  }
+  
